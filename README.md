@@ -1,4 +1,4 @@
-# Asynchronous FIFO Design
+# Asynchronous FIFO Design Verification Using UVM  
 
 This repo contains the verification of an asynchronous FIFO using UVM.  
 The design for the asynchronous FIFO is taken from [Author](#author)
@@ -7,8 +7,7 @@ The design for the asynchronous FIFO is taken from [Author](#author)
 1. [Introduction](#introduction)
 2. [References](#references)
    
-## Author
-[UJJWAL CHAUDHARY](https://www.linkedin.com/in/ujjwal-chaudhary-4436701aa/), M. Tech. ESE 2023-25, IISc Bangalore
+Author : [UJJWAL CHAUDHARY](https://www.linkedin.com/in/ujjwal-chaudhary-4436701aa/), M. Tech. ESE 2023-25, IISc Bangalore
 
 ## Introduction
 

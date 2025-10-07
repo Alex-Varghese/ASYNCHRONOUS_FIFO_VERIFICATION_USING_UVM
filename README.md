@@ -38,11 +38,6 @@ To distinguish between the full and empty conditions when the pointers are equal
 
 - **Wrapping Around Condition**: When the write pointer increments past the final FIFO address, it will increment the unused Most Significant Bit (MSB) while setting the rest of the bits back to zero. The same is done with the read pointer. If the MSBs of the two pointers are different, it means that the write pointer has wrapped one more time than the read pointer. If the MSBs of the two pointers are the same, it means that both pointers have wrapped the same number of times.
 
-This design technique helps in accurately determining the full and empty conditions of the FIFO.
-
-#### Gray code counter
-
-Gray code counters are used in FIFO design because they only allow one bit to change for each clock transition. This characteristic eliminates the problem associated with trying to synchronize multiple changing signals on the same clock edge, which is crucial for reliable operation in asynchronous systems.
 
 ### Signals Defination
 
@@ -65,5 +60,6 @@ Following is the list of signals used in the design with their defination:-
 15. **``rrst_n``**: Active low asynchronous reset for the read pointer handler.
 16. **``w_rptr``**: Read pointer signal synchronized to the ``wclk`` domain via 2 flip-flop synchronized.  
 17. **``r_wptr``**: Write pointer signal synchronized to the ``rclk`` domain via 2 flip-flop synchronized. 
-ers/CummingsSNUG2002SJ_FIFO1.pdf)
-2. [VLSI verify Blog - Asynchronous FIFO](https://vlsiverify.com/verilog/verilog-codes/asynchronous-fifo/)
+
+## References
+1. [VLSI verify Blog - Asynchronous FIFO](https://vlsiverify.com/verilog/verilog-codes/asynchronous-fifo/)

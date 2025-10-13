@@ -1,0 +1,309 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/fetools/work_area/frontend/Batch_10/alex/ASYNCHRONOUS_FIFO_VERIFICATION_USING_UVM/src
+T_opt
+!s110 1760354788
+V`9S4>XHSX8?R_eUHNQWKk0
+04 3 4 work top fast 0
+=1-6805caf5892c-68ece1e4-5041e-23789
+o-quiet -auto_acc_if_foreign -work work +acc=npr
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.6c;65
+Yasync_fifo_assertions
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1760354787
+!i10b 1
+!s100 L<2`OeEN<_@2WZm]a9Z9=3
+I75X`fW[LGP1Kzd]el@KV<1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 top_sv_unit
+S1
+R0
+Z6 w1760354769
+8afifo_assertions.sv
+Z7 Fafifo_assertions.sv
+L0 1
+Z8 OE;L;10.6c;65
+r1
+!s85 0
+31
+Z9 !s108 1760354786.000000
+Z10 !s107 afifo_assertions.sv|afifo_tests.sv|afifo_virtual_sequence.sv|afifo_environment.sv|afifo_virtual_sequencer.sv|afifo_scoreboard.sv|afifo_subscriber.sv|afifo_agents.sv|afifo_monitors.sv|afifo_drivers.sv|afifo_sequencers.sv|afifo_read_sequence.sv|afifo_write_sequence.sv|afifo_seq_item.sv|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|afifo_pkg.sv|afifo_interface.sv|../Design/wptr_full.v|../Design/rptr_empty.v|../Design/FIFO_memory.v|../Design/two_ff_sync.v|../Design/FIFO.v|defines.sv|top.sv|
+Z11 !s90 -sv|+acc|+cover|+fcover|-l|async_fifo_top.log|top.sv|
+!i113 0
+Z12 !s102 +cover
+Z13 o-sv +acc +cover +fcover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yasync_fifo_interface
+R2
+Z14 !s110 1760354786
+!i10b 1
+!s100 9JT7L95TUdN;gLEz5m2P[2
+IY9::L`]_nZjBinzeXOmib2
+R4
+R5
+S1
+R0
+R6
+8afifo_interface.sv
+Z15 Fafifo_interface.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+Xasync_fifo_pkg
+!s115 async_fifo_interface
+R2
+Z16 DXx6 mtiUvm 7 uvm_pkg 0 22 oMKUklN?>LE6@MJe7=2><1
+R3
+!i10b 1
+!s100 ^`Qc2P2jfOgh6hil^iod40
+I4ZkNU085nYD5k<0iIb1YB2
+V4ZkNU085nYD5k<0iIb1YB2
+S1
+R0
+R6
+Z17 Fafifo_pkg.sv
+Z18 Fdefines.sv
+Fafifo_seq_item.sv
+Fafifo_write_sequence.sv
+Fafifo_read_sequence.sv
+Fafifo_sequencers.sv
+Fafifo_drivers.sv
+Fafifo_monitors.sv
+Fafifo_agents.sv
+Fafifo_subscriber.sv
+Fafifo_scoreboard.sv
+Fafifo_virtual_sequencer.sv
+Fafifo_environment.sv
+Fafifo_virtual_sequence.sv
+Fafifo_tests.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vFIFO
+R2
+R14
+!i10b 1
+!s100 o?]neRSR_9egMHUNh>VD33
+Ibm>VhbPd:NklG2^fIBFAz0
+R4
+R5
+S1
+R0
+w1759919014
+8../Design/FIFO.v
+Z19 F../Design/FIFO.v
+L0 14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+n@f@i@f@o
+vFIFO_memory
+R2
+R14
+!i10b 1
+!s100 3I][b>cWk?I4o:7[Ck3FJ3
+Ih7UBfG[X=Q>k0nNXR>=EB3
+R4
+R5
+S1
+R0
+Z20 w1759206859
+8../Design/FIFO_memory.v
+Z21 F../Design/FIFO_memory.v
+L0 13
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+n@f@i@f@o_memory
+vrptr_empty
+R2
+R14
+!i10b 1
+!s100 ZM8cWJgFULXL_WR^kmC6z3
+I4U8XCmX`5:XBa2dDYc7oO3
+R4
+R5
+S1
+R0
+R20
+8../Design/rptr_empty.v
+Z22 F../Design/rptr_empty.v
+L0 9
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vtop
+R2
+R16
+Z23 DXx4 work 14 async_fifo_pkg 0 22 4ZkNU085nYD5k<0iIb1YB2
+DXx4 work 11 top_sv_unit 0 22 ^ZX<LZGL17^l2=T7VQE?72
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^7QLkK1mzXgBB5k@V_VU_3
+I0TIm71DznRV6P?2PHMQd?1
+R5
+S1
+R0
+R6
+Z24 8top.sv
+Z25 Ftop.sv
+L0 10
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+Xtop_sv_unit
+R2
+R16
+R23
+V^ZX<LZGL17^l2=T7VQE?72
+r1
+!s85 0
+31
+!i10b 1
+!s100 iiFIX[RR=WejH`_h8M8`@0
+I^ZX<LZGL17^l2=T7VQE?72
+!i103 1
+S1
+R0
+R6
+R24
+R25
+R18
+R19
+Z26 F../Design/two_ff_sync.v
+R21
+R22
+Z27 F../Design/wptr_full.v
+R15
+R17
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+F/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+R7
+L0 7
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vtwo_ff_sync
+R2
+R14
+!i10b 1
+!s100 zeCU@5o<^JnM>F33ZU?Tm0
+IB2kAfl@Q3n7UZ8;XGYR]N2
+R4
+R5
+S1
+R0
+R20
+8../Design/two_ff_sync.v
+R26
+L0 9
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vwptr_full
+R2
+R14
+!i10b 1
+!s100 6=md7^I6PoPF^JA2jUV103
+IJcYPXloT<>:`N[4jAClKR1
+R4
+R5
+S1
+R0
+R20
+8../Design/wptr_full.v
+R27
+L0 9
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1

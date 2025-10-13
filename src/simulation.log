@@ -1,0 +1,236 @@
+# vsim -vopt work.top -voptargs="+acc=npr" -assertdebug -l simulation.log -coverage -c -do "coverage save -onexit -assert -directive -cvg -codeAll coverage.ucdb; run -all; exit" 
+# Start time: 16:56:28 on Oct 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.async_fifo_interface(fast)
+# Loading mtiUvm.uvm_pkg
+# Loading work.async_fifo_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.async_fifo_interface(fast)
+# Loading work.async_fifo_assertions(fast)
+# Loading work.FIFO(fast)
+# Loading work.two_ff_sync(fast)
+# Loading work.FIFO_memory(fast)
+# Loading work.rptr_empty(fast)
+# Loading work.wptr_full(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading /tools/mentor/questasim_10.6c/questasim/uvm-1.1d/linux/uvm_dpi.so
+# coverage save -onexit -assert -directive -cvg -codeAll coverage.ucdb
+#  run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test async_fifo_test...
+# ------------------------------ write_reset_seq started -----------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 15 | RST=0 | WINC = 0 | DATA = 44 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# ** Info: write_reset is valid - Assertion 2 passed
+#    Time: 15 ns Started: 15 ns  Scope: top.vif.ASSERT.write_reset_check_2 File: afifo_assertions.sv Line: 34
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 25 | RST=1 | WINC = 1 | DATA = 216 | FULL = 0
+# --------------------------- data written into fifo -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# DUT @ (30) 
+#  RRST = x | WINC = x | READ_DATA = x | REMPTY = 0
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 35 | RST=1 | WINC = 0 | DATA = 52 | FULL = 0
+# ** Info: wfull is stable - Assertion 4 passed
+#    Time: 35 ns Started: 25 ns  Scope: top.vif.ASSERT.wfull_stable_check_4 File: afifo_assertions.sv Line: 56
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 45 | RST=1 | WINC = 1 | DATA = 44 | FULL = 0
+# --------------------------- data written into fifo -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# DUT @ (50) 
+#  RRST = x | WINC = x | READ_DATA = x | REMPTY = 0
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 55 | RST=0 | WINC = 1 | DATA = 162 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# ------------------------------ read_reset_seq -----------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 65 | RST=0 | WINC = 1 | DATA = 162 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# DUT @ (70) 
+#  RRST = x | WINC = x | READ_DATA = x | REMPTY = 1
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 75 | RST=0 | WINC = 1 | DATA = 162 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 85 | RST=0 | WINC = 1 | DATA = 162 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# DUT @ (90) 
+#  RRST = 0 | WINC = 1 | READ_DATA = 162 | REMPTY = 1
+# --------------------------- read reset condition matched -------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# ** Info: rempty is valid - Assertion 9 passed
+#    Time: 90 ns Started: 90 ns  Scope: top.vif.ASSERT.is_rempty_check_9 File: afifo_assertions.sv Line: 112
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 95 | RST=0 | WINC = 1 | DATA = 162 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 105 | RST=0 | WINC = 1 | DATA = 162 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# DUT @ (110) 
+#  RRST = 1 | WINC = 0 | READ_DATA = 162 | REMPTY = 1
+# ** Info: rempty is valid - Assertion 9 passed
+#    Time: 110 ns Started: 110 ns  Scope: top.vif.ASSERT.is_rempty_check_9 File: afifo_assertions.sv Line: 112
+# ** Info: read_latch is valid - Assertion 5 passed
+#    Time: 110 ns Started: 10 ns  Scope: top.vif.ASSERT.read_latch_check_5 File: afifo_assertions.sv Line: 67
+# ** Info: rempty is stable - Assertion 7 passed
+#    Time: 110 ns Started: 50 ns  Scope: top.vif.ASSERT.rempty_stable_check_7 File: afifo_assertions.sv Line: 89
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 115 | RST=0 | WINC = 1 | DATA = 162 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 125 | RST=0 | WINC = 1 | DATA = 162 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# DUT @ (130) 
+#  RRST = 1 | WINC = 1 | READ_DATA = 162 | REMPTY = 1
+# ** Info:  rdata is valid - Assertion 6 passed
+#    Time: 130 ns Started: 130 ns  Scope: top.vif.ASSERT.data_valid_check_6 File: afifo_assertions.sv Line: 78
+# ** Info: rempty is valid - Assertion 9 passed
+#    Time: 130 ns Started: 130 ns  Scope: top.vif.ASSERT.is_rempty_check_9 File: afifo_assertions.sv Line: 112
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 135 | RST=0 | WINC = 1 | DATA = 162 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# WRITE_MON: 145 | RST=0 | WINC = 1 | DATA = 162 | FULL = 0
+# --------------------------- write reset condition matched -------------------------------------
+# 
+# ----------------------------------------------------------------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# DUT @ (150) 
+#  RRST = 0 | WINC = 1 | READ_DATA = 162 | REMPTY = 1
+# --------------------------- read reset condition matched -------------------------------------
+# 
+# --------------------------------------------------------------------------------------------
+# 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1268) @ 150: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# 
+# ---------------------------------------------
+# Total transactions: 13
+# MATCH = 13 | MISMATCH = 0 
+# 
+# ---------------------------------------------
+# 
+# UVM_INFO afifo_subscriber.sv(72) @ 150: uvm_test_top.env.sub [async_fifo_subscriber] [WRITE_MONITOR]  Coverage ------> 90.00%
+# UVM_INFO afifo_subscriber.sv(73) @ 150: uvm_test_top.env.sub [async_fifo_subscriber] [READ_MONITOR]   Coverage ------> 85.00%
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    6
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [async_fifo_subscriber]     2
+# ** Note: $finish    : /tools/mentor/questasim_10.6c/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 150 ns  Iteration: 67  Instance: /top
+# Saving coverage database on exit...
+# End time: 16:56:31 on Oct 13,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
